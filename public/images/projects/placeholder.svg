@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" fill="none">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="40%" r="75%">
+      <stop offset="0%" stop-color="#0b1626"/>
+      <stop offset="100%" stop-color="#04070d"/>
+    </radialGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="800" height="500" fill="url(#bg)"/>
+  <g stroke="#15243a" stroke-width="1" opacity=".6">
+    <path d="M0 100h800M0 200h800M0 300h800M0 400h800M100 0v500M200 0v500M300 0v500M400 0v500M500 0v500M600 0v500M700 0v500"/>
+  </g>
+  <g filter="url(#glow)">
+    <circle cx="400" cy="250" r="90" stroke="#22d3ee" stroke-opacity=".5" stroke-width="2"/>
+    <circle cx="400" cy="250" r="8" fill="#00ff9c"/>
+    <path d="M400 160v-40M400 380v-40M310 250h-40M530 250h-40" stroke="#00ff9c" stroke-opacity=".6" stroke-width="2"/>
+  </g>
+  <text x="400" y="470" text-anchor="middle" fill="#64748b" font-family="ui-monospace, monospace" font-size="12">PORTFOLIO3D / PROJECT</text>
+</svg>

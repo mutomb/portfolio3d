@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" fill="none">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="40%" r="75%">
+      <stop offset="0%" stop-color="#0b1f1a"/>
+      <stop offset="100%" stop-color="#04070d"/>
+    </radialGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#00ff9c"/>
+      <stop offset="1" stop-color="#22d3ee"/>
+    </linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="800" height="500" fill="url(#bg)"/>
+  <g stroke="#1e3a34" stroke-width="1" opacity=".5">
+    <path d="M0 100h800M0 200h800M0 300h800M0 400h800M100 0v500M200 0v500M300 0v500M400 0v500M500 0v500M600 0v500M700 0v500"/>
+  </g>
+  <g filter="url(#glow)">
+    <ellipse cx="400" cy="250" rx="230" ry="95" stroke="url(#line)" stroke-width="2" transform="rotate(-18 400 250)"/>
+    <ellipse cx="400" cy="250" rx="170" ry="65" stroke="#00ff9c" stroke-opacity=".5" stroke-width="1.5" transform="rotate(24 400 250)"/>
+    <ellipse cx="400" cy="250" rx="105" ry="105" stroke="#22d3ee" stroke-opacity=".4" stroke-width="1.5"/>
+    <circle cx="400" cy="250" r="46" fill="#00ff9c" fill-opacity=".12" stroke="#00ff9c" stroke-width="2"/>
+    <circle cx="400" cy="250" r="14" fill="#00ff9c"/>
+    <circle cx="592" cy="180" r="8" fill="#22d3ee"/>
+    <circle cx="222" cy="322" r="6" fill="#00ff9c"/>
+    <circle cx="516" cy="338" r="5" fill="#22d3ee"/>
+  </g>
+  <g fill="#94a3b8" font-family="ui-monospace, monospace" font-size="13">
+    <text x="40" y="60" fill="#00ff9c">ORBITAL / API GATEWAY</text>
+    <text x="40" y="460" fill="#64748b">p95 680ms</text>
+    <text x="660" y="460" fill="#64748b">99.99%</text>
+  </g>
+  <g fill="#22d3ee" font-family="ui-monospace, monospace" font-size="11" opacity=".8">
+    <text x="40" y="80">tenant-aware rate limiting</text>
+    <text x="40" y="96">signed requests · replay protection</text>
+  </g>
+</svg>

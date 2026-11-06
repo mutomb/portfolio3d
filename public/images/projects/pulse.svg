@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" fill="none">
+  <defs>
+    <radialGradient id="bg" cx="40%" cy="50%" r="80%">
+      <stop offset="0%" stop-color="#24101c"/>
+      <stop offset="100%" stop-color="#04070d"/>
+    </radialGradient>
+    <linearGradient id="wave" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#f472b6"/>
+      <stop offset="1" stop-color="#22d3ee"/>
+    </linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="800" height="500" fill="url(#bg)"/>
+  <g stroke="#2a1a28" stroke-width="1" opacity=".6">
+    <path d="M0 100h800M0 200h800M0 300h800M0 400h800M100 0v500M200 0v500M300 0v500M400 0v500M500 0v500M600 0v500M700 0v500"/>
+  </g>
+  <path d="M40 260h70l22-10 16 18 24-70 22 120 20-58h60l20-40 26 80 18-28h70l24-50 22 100 20-50h60l18-24 24 48h120" stroke="url(#wave)" stroke-width="3" filter="url(#glow)" stroke-linejoin="round"/>
+  <g fill="#f472b6" opacity=".8">
+    <rect x="160" y="390" width="14" height="40" rx="3"/><rect x="200" y="360" width="14" height="70" rx="3"/><rect x="240" y="410" width="14" height="20" rx="3"/><rect x="280" y="340" width="14" height="90" rx="3"/><rect x="320" y="380" width="14" height="50" rx="3"/>
+  </g>
+  <g fill="#94a3b8" font-family="ui-monospace, monospace" font-size="13">
+    <text x="40" y="60" fill="#f472b6">PULSEOPS / OBSERVABILITY</text>
+    <text x="40" y="460" fill="#64748b">MTTD 18m → 3m</text>
+    <text x="660" y="460" fill="#22d3ee">-44% pages</text>
+  </g>
+</svg>

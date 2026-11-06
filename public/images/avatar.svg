@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 480" fill="none">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="40%" r="70%">
+      <stop offset="0%" stop-color="#0d2a22"/>
+      <stop offset="60%" stop-color="#071018"/>
+      <stop offset="100%" stop-color="#04070d"/>
+    </radialGradient>
+    <linearGradient id="ring" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#00ff9c"/>
+      <stop offset="1" stop-color="#22d3ee"/>
+    </linearGradient>
+    <linearGradient id="head" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#1e3a34"/>
+      <stop offset="1" stop-color="#0b1720"/>
+    </linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="8" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="480" height="480" fill="url(#bg)"/>
+  <g stroke="#12352c" stroke-width="1" opacity=".6">
+    <path d="M0 80h480M0 160h480M0 240h480M0 320h480M0 400h480M80 0v480M160 0v480M240 0v480M320 0v480M400 0v480"/>
+  </g>
+  <g filter="url(#glow)">
+    <circle cx="240" cy="240" r="176" stroke="url(#ring)" stroke-opacity=".35" stroke-width="1.5"/>
+    <circle cx="240" cy="240" r="146" stroke="#00ff9c" stroke-opacity=".25" stroke-width="1"/>
+    <circle cx="240" cy="240" r="112" fill="#00ff9c" fill-opacity=".05"/>
+    <circle cx="240" cy="200" r="62" fill="url(#head)" stroke="#00ff9c" stroke-opacity=".55" stroke-width="2"/>
+    <path d="M130 390c0-70 50-118 110-118s110 48 110 118" fill="url(#head)" stroke="#22d3ee" stroke-opacity=".45" stroke-width="2"/>
+    <path d="M190 200h100" stroke="#00ff9c" stroke-width="2" stroke-opacity=".6"/>
+    <circle cx="215" cy="196" r="5" fill="#00ff9c"/>
+    <circle cx="265" cy="196" r="5" fill="#22d3ee"/>
+  </g>
+  <text x="240" y="452" text-anchor="middle" fill="#64748b" font-family="ui-monospace, monospace" font-size="13" letter-spacing="3">PRINCE MUTOMB</text>
+</svg>

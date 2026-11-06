@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" fill="none">
+  <defs>
+    <radialGradient id="bg" cx="70%" cy="20%" r="80%">
+      <stop offset="0%" stop-color="#0a1c28"/>
+      <stop offset="100%" stop-color="#04070d"/>
+    </radialGradient>
+    <linearGradient id="area" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#22d3ee" stop-opacity=".45"/>
+      <stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="stroke" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#00ff9c"/>
+      <stop offset="1" stop-color="#22d3ee"/>
+    </linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="800" height="500" fill="url(#bg)"/>
+  <g stroke="#16303d" stroke-width="1" opacity=".6">
+    <path d="M0 100h800M0 180h800M0 260h800M0 340h800M0 420h800"/>
+  </g>
+  <path d="M40 390 C120 360 150 300 210 310 S300 240 360 250 S450 170 510 190 S600 120 660 140 S740 90 770 100 V440 H40 Z" fill="url(#area)"/>
+  <path d="M40 390 C120 360 150 300 210 310 S300 240 360 250 S450 170 510 190 S600 120 660 140 S740 90 770 100" stroke="url(#stroke)" stroke-width="3" filter="url(#glow)"/>
+  <g fill="#00ff9c" filter="url(#glow)">
+    <circle cx="210" cy="310" r="4"/><circle cx="360" cy="250" r="4"/><circle cx="510" cy="190" r="4"/><circle cx="660" cy="140" r="4"/>
+  </g>
+  <g fill="#94a3b8" font-family="ui-monospace, monospace" font-size="13">
+    <text x="40" y="60" fill="#22d3ee">SIGNAL / REVENUE INTELLIGENCE</text>
+    <text x="40" y="460" fill="#64748b">ARR motion · NRR · expansion propensity</text>
+    <text x="650" y="460" fill="#00ff9c">$1.2M</text>
+  </g>
+  <g fill="#64748b" font-family="ui-monospace, monospace" font-size="11">
+    <text x="640" y="100" fill="#00ff9c">+24.8%</text>
+    <text x="40" y="110">46 dbt models · 120 tests</text>
+  </g>
+</svg>

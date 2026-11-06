@@ -1,0 +1,67 @@
+%PDF-1.4
+%����
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 4 0 R /F2 5 0 R >> >> /Contents 6 0 R >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+6 0 obj
+<< /Length 2888 >>
+stream
+BT /F1 24 Tf 50 800 Td (PRINCE MUTOMB) Tj ET
+BT /F2 12 Tf 50 764 Td (Software Developer & Data Analyst) Tj ET
+BT /F2 9 Tf 50 736 Td (Nairobi, Kenya · Remote worldwide · hello@portfolio3d.test · portfolio3d.test) Tj ET
+BT /F1 12 Tf 50 692 Td (PROFILE) Tj ET
+BT /F2 10 Tf 50 674 Td (Software developer and data analyst with 7 years building production systems and the) Tj ET
+BT /F2 10 Tf 50 659 Td (analytics layers that make them measurable. I work across Laravel, Python, SQL and) Tj ET
+BT /F2 10 Tf 50 644 Td (modern warehouses, with a focus on reliability, clear metrics and adoption.) Tj ET
+BT /F1 12 Tf 50 616 Td (EXPERIENCE) Tj ET
+BT /F1 10 Tf 50 598 Td (Independent Consultant · Software & Data · 2021 — Present) Tj ET
+BT /F2 9 Tf 50 583 Td (- Designed multi-tenant API gateways, commerce platforms and identity systems.) Tj ET
+BT /F2 9 Tf 50 569 Td (- Built dbt/BigQuery and Snowflake models powering executive and operator dashboards.) Tj ET
+BT /F2 9 Tf 50 555 Td (- Shipped churn, expansion and climate-risk data products used by non-technical teams.) Tj ET
+BT /F2 9 Tf 50 541 Td (- Led migrations with measurable outcomes: 63% lower latency, 41% checkout lift.) Tj ET
+BT /F1 10 Tf 50 521 Td (Senior Engineer · Northstar Logistics · 2019 — 2021) Tj ET
+BT /F2 9 Tf 50 506 Td (- Owned the fleet event platform and led the API gateway redesign.) Tj ET
+BT /F2 9 Tf 50 492 Td (- Introduced observability, incident review and queue reliability practices.) Tj ET
+BT /F2 9 Tf 50 478 Td (- Mentored four engineers and established the internal API design guide.) Tj ET
+BT /F1 10 Tf 50 458 Td (Data Analyst · Terra Analytics · 2018 — 2019) Tj ET
+BT /F2 9 Tf 50 443 Td (- Built the first governed reporting layer and automated weekly client reporting.) Tj ET
+BT /F2 9 Tf 50 429 Td (- Partnered with planners to turn geospatial data into usable risk narratives.) Tj ET
+BT /F1 12 Tf 50 401 Td (SELECTED WORK) Tj ET
+BT /F2 9 Tf 50 383 Td (Orbital API Gateway · Signal Revenue Intelligence · Helix Commerce Engine) Tj ET
+BT /F2 9 Tf 50 369 Td (Terra Climate Dashboard · Churn Radar · PulseOps Observability · Retail Funnel 360) Tj ET
+BT /F1 12 Tf 50 341 Td (SKILLS) Tj ET
+BT /F2 9 Tf 50 323 Td (Engineering: PHP 8.5, Laravel, Python, TypeScript, Go, Livewire, Alpine.js, Vue) Tj ET
+BT /F2 9 Tf 50 309 Td (Data: SQL, dbt, PostgreSQL, BigQuery, Snowflake, pandas, scikit-learn, Looker, Power BI) Tj ET
+BT /F2 9 Tf 50 295 Td (Platform: Docker, AWS, GitHub Actions, Terraform, Redis, ClickHouse, observability) Tj ET
+BT /F1 12 Tf 50 267 Td (EDUCATION & CERTIFICATIONS) Tj ET
+BT /F2 9 Tf 50 249 Td (MSc Data Science · Carnegie Mellon University Africa · 2019 — 2021) Tj ET
+BT /F2 9 Tf 50 235 Td (BSc Computer Science · University of Nairobi · 2014 — 2018) Tj ET
+BT /F2 9 Tf 50 221 Td (AWS Certified Solutions Architect — Professional · dbt Analytics Engineering) Tj ET
+endstream
+endobj
+xref
+0 7
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000121 00000 n 
+0000000257 00000 n 
+0000000332 00000 n 
+0000000402 00000 n 
+trailer
+<< /Size 7 /Root 1 0 R >>
+startxref
+3341
+%%EOF
