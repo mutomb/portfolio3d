@@ -14,7 +14,7 @@ No page builder. No third-party analytics. No starter-kit bloat. Just a small La
 
 ---
 ## Features Overview
- Public Side (Terminal-Style Portfolio)
+ **Public Side (Terminal-Style Portfolio)**
 
 • Theme: Dark-neon, terminal-inspired design.
 • Hero: Typewriter animation effect.
@@ -22,12 +22,12 @@ No page builder. No third-party analytics. No starter-kit bloat. Just a small La
 • Projects: Filterable professional case studies.
 • Contact: Embedded terminal-style communications form.
 
-🔐 Private Side (Admin Control Center)
+🔐 **Private Side (Admin Control Center)**
 
-• Content: Full CRUD management system.
-• Analytics: Real-time visitor and click tracking.
-• Inbox: Inquiry management portal with reply functionality.
-• Settings: Comprehensive, site-wide configuration panel.
+- Content: Full CRUD management system.
+- Analytics: Real-time visitor and click tracking.
+- Inbox: Inquiry management portal with reply functionality.
+- Settings: Comprehensive, site-wide configuration panel.
 
 ### Features Details
 
