@@ -16,11 +16,11 @@ No page builder. No third-party analytics. No starter-kit bloat. Just a small La
 ## Features Overview
  **Public Side (Terminal-Style Portfolio)**
 
-• Theme: Dark-neon, terminal-inspired design.
-• Hero: Typewriter animation effect.
-• Stack: Interactive technology matrix.
-• Projects: Filterable professional case studies.
-• Contact: Embedded terminal-style communications form.
+- Theme: Dark-neon, terminal-inspired design.
+- Hero: Typewriter animation effect.
+- Stack: Interactive technology matrix.
+- Projects: Filterable professional case studies.
+- Contact: Embedded terminal-style communications form.
 
 🔐 **Private Side (Admin Control Center)**
 
